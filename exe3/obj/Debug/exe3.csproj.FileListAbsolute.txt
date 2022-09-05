@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\exe3\exe3\bin\Debug\exe3.exe.config
+C:\Users\david\source\repos\exe3\exe3\bin\Debug\exe3.exe
+C:\Users\david\source\repos\exe3\exe3\bin\Debug\exe3.pdb
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.csproj.SuggestedBindingRedirects.cache
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.Form1.resources
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.Properties.Resources.resources
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.csproj.GenerateResource.cache
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.exe
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.pdb
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.loginSuccses.resources
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.Registration.resources
+C:\Users\david\source\repos\exe3\exe3\obj\Debug\exe3.PasswordReset.resources
