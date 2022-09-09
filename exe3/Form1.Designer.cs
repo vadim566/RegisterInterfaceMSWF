@@ -118,6 +118,7 @@
             // 
             this.loginPasswordField.Location = new System.Drawing.Point(87, 6);
             this.loginPasswordField.Name = "loginPasswordField";
+            this.loginPasswordField.PasswordChar = '*';
             this.loginPasswordField.Size = new System.Drawing.Size(172, 26);
             this.loginPasswordField.TabIndex = 4;
             this.loginPasswordField.TextChanged += new System.EventHandler(this.textBox2_TextChanged);

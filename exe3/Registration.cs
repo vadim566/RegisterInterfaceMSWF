@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -100,7 +101,7 @@ namespace exe3
                 //
                 try
                 {
-
+                    if (IsValid(emailTextField.Text.ToString()))
                     using (SqlCommand cmd = new SqlCommand("registerNewUser", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
@@ -121,7 +122,7 @@ namespace exe3
                 }
                 catch
                 {
-                    MessageBox.Show("Fill all Text Fields !");
+                    
 
                 }
                 finally
@@ -165,6 +166,24 @@ namespace exe3
         private void q1lTextField_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void emailTextField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        public bool IsValid(string emailaddress)
+        {
+            try
+            {
+                MailAddress m = new MailAddress(emailaddress);
+
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
         }
     }
 }

@@ -322,6 +322,7 @@
             this.emailTextField.Name = "emailTextField";
             this.emailTextField.Size = new System.Drawing.Size(172, 26);
             this.emailTextField.TabIndex = 4;
+            this.emailTextField.TextChanged += new System.EventHandler(this.emailTextField_TextChanged);
             // 
             // emailField
             // 
@@ -346,6 +347,7 @@
             // 
             this.loginPasswordField.Location = new System.Drawing.Point(87, 6);
             this.loginPasswordField.Name = "loginPasswordField";
+            this.loginPasswordField.PasswordChar = '*';
             this.loginPasswordField.Size = new System.Drawing.Size(172, 26);
             this.loginPasswordField.TabIndex = 4;
             // 
@@ -364,7 +366,7 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(164, 26);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(280, 55);
+            this.label11.Size = new System.Drawing.Size(421, 82);
             this.label11.TabIndex = 1;
             this.label11.Text = "Registration";
             // 

@@ -77,7 +77,7 @@ namespace exe3
                 }
                 catch
                 {
-                    MessageBox.Show("Couldnt Connect ,Check Your  Email  !");
+                    
 
                 }
                 finally
@@ -100,12 +100,12 @@ namespace exe3
                 {
                     loginSuccses form = new loginSuccses();
                     form.Show();
-                    this.Close();
+                    this.Hide();
 
                 }
                 else
                 {
-                    MessageBox.Show("Couldnt Connect ,Check Your  Password  !");
+                    MessageBox.Show("Couldnt Connect ,Check Your Email and Password  !");
                       
                     }
                 }
